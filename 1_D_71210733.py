@@ -1,24 +1,25 @@
 import turtle
 sc= turtle.Screen()
 ac = turtle.Turtle()
-for i in range(4):
-    ac.
-    ac.color("violet")
-    ac.forward(300)
-    ac.left(90)
+ac.color("white")
+ac.forward(300)
+ac.left(90)
 
-    ac.pensize(30)
-    ac.color("white")
-    ac.circle(95, -180)
+import turtle as qw
+qw.pensize(30)
+qw.color("red")
+qw.forward(130)
+qw.right(45)
+qw.forward(50)
+qw.backward(150)
 
-    ac.pensize(30)
-    ac.color("white")
-    ac.forward(130)
-    ac.right(45)
-    ac.forward(50)
-    ac.backward(150)
+qw.right(90)
+qw.forward(150)
 
-    ac.right(90)
-    ac.forward(150)
+import turtle as er
+er.pensize(30)
+er.color("red")
+er.circle(95, -180)
 
-import turtle as ac
+
+sc = turtle.Screen().exitonclick()
